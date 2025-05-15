@@ -7,3 +7,60 @@
   max-width: 24px;
   height: auto;
 }
+
+h2 {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(228, 135, 191);
+
+  &-left {
+  }
+
+  &-mid {
+    display: flex;
+    justify-content: space-between; ///
+    column-gap: 30px;
+  }
+}
+
+.container {
+  &-prologue {
+    padding-top: 40px;
+    background-color: rgb(255, 225, 0);
+    &-text {
+      margin-inline: auto;
+      align-items: center;
+      text-align: center;
+
+      &-appname {
+        font-size: 40px;
+      }
+      &-simple {
+        font-size: 18px;
+      }
+    }
+    &-img {
+      position: relative;
+      img {
+        max-width: 200%;
+        width: 550px;
+        height: auto;
+      }
+
+      left: 900px;
+      top: -100px;
+    }
+  }
+  &-consept {
+  }
+  &-why {
+  }
+  &-whyagain {
+  }
+  &-wakeup {
+  }
+}

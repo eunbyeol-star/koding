@@ -7,3 +7,45 @@
   max-width: 24px;
   height: auto;
 }
+
+h2 {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(228, 135, 191);
+}
+.nav-mid {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.container-prologue {
+  padding-top: 40px;
+  background-color: rgb(255, 225, 0);
+}
+.container-prologue-text {
+  margin-inline: auto;
+  align-items: center;
+  text-align: center;
+}
+.container-prologue-text-appname {
+  font-size: 40px;
+}
+.container-prologue-text-simple {
+  font-size: 18px;
+}
+.container-prologue-img {
+  position: relative;
+  left: 900px;
+  top: -100px;
+}
+.container-prologue-img img {
+  max-width: 200%;
+  width: 550px;
+  height: auto;
+}
